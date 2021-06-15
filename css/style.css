@@ -162,7 +162,7 @@ nav li a {
 
 .gray-text {
     color: gray;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .sidebar-left img {
@@ -195,6 +195,7 @@ nav li a {
 h5 {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 /* fine main */
 
