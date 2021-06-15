@@ -82,8 +82,6 @@ nav li a {
     color: #858585;
 }
 
-
-
 /* fine header */
 
 /*  debug */
@@ -109,7 +107,11 @@ nav li a {
     background-color: lightskyblue;
 }
 
-.debug .sidebar {
+.debug .sidebar-left {
+    background-color: lightskyblue;
+}
+
+.debug .sidebar-right {
     background-color: lightskyblue;
 }
 
@@ -138,13 +140,15 @@ nav li a {
     
 }
 
-.sidebar,
+.sidebar-left,
+.sidebar-right,
 .central-bar {
     float: left;
     padding: 10px;
 }
 
-.sidebar {
+.sidebar-left, 
+.sidebar-right {
     width: 20%;
     margin: 20px 0;
 }
@@ -157,6 +161,30 @@ nav li a {
 .gray-text {
     color: gray;
     font-size: 12px;
+}
+
+.sidebar-left img {
+    width: 200px;
+    height: 200px
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.sidebar-right img {
+    width: 230px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    object-fit: cover;
+    border-radius: 30px;
+    
+}
+
+.central-bar img {
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
 }
 /* fine main */
 
