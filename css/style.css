@@ -136,8 +136,7 @@ nav li a {
 .top-bar {
     height: 100px;
     margin: 0;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 .sidebar-left,
@@ -151,11 +150,13 @@ nav li a {
 .sidebar-right {
     width: 20%;
     margin: 20px 0;
+    position: relative;
 }
 
 .central-bar {
     width: calc(60% - 110px);
     margin: 20px 55px;
+    position: relative;
 }
 
 .gray-text {
@@ -177,7 +178,6 @@ nav li a {
     text-align: center;
     object-fit: cover;
     border-radius: 30px;
-    
 }
 
 .central-bar img {
@@ -186,6 +186,8 @@ nav li a {
     object-fit: cover;
     border-radius: 30px;
 }
+
+
 /* fine main */
 
 /* footer */
