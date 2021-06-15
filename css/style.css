@@ -6,7 +6,7 @@
 
 /*common*/
 body {
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix {
@@ -44,6 +44,7 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 30px;
 }
 
 .overlay {
@@ -59,7 +60,7 @@ header {
     bottom: 60px;
 }
 
-h3 {
+h2 {
     font-size: 29px;
 }
 
@@ -67,11 +68,6 @@ h3 {
     height: 70px;
     padding-right: 20px;
     border-right: 1px solid #e5e5e5;
-}
-
-nav {
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 nav li {
@@ -85,6 +81,8 @@ nav li a {
     text-decoration: none;
     color: #858585;
 }
+
+
 
 /* fine header */
 
@@ -107,6 +105,21 @@ nav li a {
     background-color: blue;
 }
 
+.debug .top-bar {
+    background-color: lightskyblue;
+}
+
+.debug .sidebar {
+    background-color: lightskyblue;
+}
+
+.debug .central-bar {
+    background-color: lightskyblue;
+}
+
+.debug footer {
+    background-color: purple;
+}
 /* fine debug */
 
 /* main */
@@ -122,14 +135,13 @@ nav li a {
     height: 100px;
     margin: 0;
     padding: 10px;
-    background-color: lightskyblue;
+    
 }
 
 .sidebar,
 .central-bar {
     float: left;
     padding: 10px;
-    background-color: lightskyblue;
 }
 
 .sidebar {
@@ -141,6 +153,11 @@ nav li a {
     width: calc(60% - 110px);
     margin: 20px 55px;
 }
+
+.gray-text {
+    color: gray;
+    font-size: 12px;
+}
 /* fine main */
 
 /* footer */
@@ -148,6 +165,6 @@ footer {
     width: 100%;
     height: 50px;
     margin-top: 10px;
-    background-color: purple;
+    text-align: center;
 }
 /* fine footer */
