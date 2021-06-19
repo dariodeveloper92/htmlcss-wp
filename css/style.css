@@ -165,21 +165,10 @@ nav li a {
     font-size: 20px;
 }
 
-.sidebar-left img {
-    width: 100%;
-    max-height: 180px;
-    object-fit: cover;
-    border-radius: 30px;
-    margin: 0 auto;
-}
 
-.sidebar-right img {
-    width: 100%;
-    max-height: 180px;
-    object-fit: cover;
-    border-radius: 30px;
-}
 
+.sidebar-left img,
+.sidebar-right img,
 .central-bar img {
     width: 100%;
     max-height: 180px;
@@ -189,7 +178,6 @@ nav li a {
 
 .box {
     position: relative;
-    height: auto;
 }
 
 h5 {
