@@ -194,4 +194,8 @@ footer {
     margin-top: 10px;
     text-align: center;
 }
+
+.container-footer {
+    width: 100%;
+}
 /* fine footer */
